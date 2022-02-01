@@ -1,0 +1,76 @@
+.slider-height
+{
+    height: 550px;
+    width: 200px;
+}
+.my-caption{
+    background: rgba(0,0,0,0.5);
+    bottom: 200px;
+}
+.sz{
+    height: 200px;
+    width: 600px;
+    left: 300px;
+}
+.h-200{height: 200px;}
+.h-50{height: 50px;}
+.h-250{height: 250px;}
+.h-600{height: 600px;}
+.h-40{height: 40px;}
+.h-275{height: 275px;}
+
+.card-big-img-height{height: 400px;}
+.card-img-height{height: 150px;}
+
+
+.card-default-height
+{
+    height: 300px;
+}
+
+.b-b-1{
+    border-bottom: 1px solid lightgray!important;
+}
+
+
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-13{
+    font-size: 14px;
+}
+
+.fs-16{font-size: 16px;}
+.fs-11{font-size: 11px;}
+
+
+/*.card-custom-image:hover{*/
+/*    opacity: .5;*/
+/*}*/
+
+.parent-div{
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(57, 119, 175, 0.5);
+    height: 275px;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+    bottom: 100%;
+    opacity: 0;
+}
+.parent-div:hover .overlay{
+    opacity: 1;
+    bottom: 0;
+}
+
+
+
+
+
+
+

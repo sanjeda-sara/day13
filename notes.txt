@@ -1,0 +1,26 @@
+latex: https://www.overleaf.com/learn/latex/Free_online_introduction_to_LaTeX_(part_1)
+____________________________________________________________________
+basic structure of modal: modal-header, modal-body, modal-footer
+-------------------------------------------------------------------
+<div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+            </div>
+        </div>
+    </div>
+
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+<span>&times;</span> --> cross in modal
+data-backdrop="static" --> to ensure even if you click outside the modal, it doesn't close
+<div class="modal-dialog modal-lg"> --> inc size
+modal-dialog-centered --> to bring the modal at the center if the page
+ <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable"> --> scroll korate
+--> no section. container for modal, usually written at the very end of body
+--> before jquery script
+
+--------------------------------------------------------------------------
+
+<div class="tab-pane" id="hermione">  --> hides content written for hermione
+

@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day12</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+        <div class="container">
+        <a href="" class="navbar-brand">Logo</a>
+       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+        <div class="collapse navbar-collapse" id="myMenu">
+            <ul class="navbar-nav ml-auto">
+                <li><a href="" class="nav-link">Home</a></li>
+                <li><a href="" class="nav-link">About</a></li>
+                <li><a href="" class="nav-link">Contact</a></li>
+                <li><a href="#signin_modal" class="nav-link" data-toggle="modal" >Sign In</a></li>
+                <li><a href="#modal" class="nav-link" data-toggle="modal" data-target="#modal">Register</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card card-body">
+                        <ul class="nav nav-tabs">
+                            <li><a href="#hermione" class="nav-link active" data-toggle="tab">Hermione</a></li>
+                            <li><a href="#harry" class="nav-link" data-toggle="tab">Harry</a></li>
+                            <li><a href="#ron" class="nav-link" data-toggle="tab">Ron</a></li>
+                            <li><a href="#luna" class="nav-link" data-toggle="tab">Luna</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="hermione">
+                                <p class="text-justify">Russia has deployed millions of troops along the Ukrainian border. Western nations, including Kiev, have expressed concern that Russia is planning a military offensive in the country. In the midst of all this anxiety, the United Kingdom ...!</p>
+                            </div>
+                            <div class="tab-pane fade" id="harry">
+                                <p class="text-justify">Myanmar's junta has begun prosecuting ousted leader Aung San Suu Kyi for alleged electoral fraud. To influence the election officials in the general election of 2020 ...</p>
+                            </div>
+                            <div class="tab-pane fade" id="ron">
+                                <p class="text-justify">According to local media reports on Monday, the zoo authorities were able to catch the fleeing lioness and her companion later.</p>
+                            </div>
+                            <div class="tab-pane fade" id="luna">
+                                <p class="text-justify">Elections were held in Myanmar in November 2020. Aung San Suu Kyi's team won the National League for Democracy (NLD). The military forces staged a coup accusing the election of rigging. But election observation ...
+                                    !</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ">
+                    <div class="card card-body">
+                        <ul class="nav nav-pills">
+                            <li><a href="#home" class="nav-link active" data-toggle="pill">Home</a></li>
+                            <li><a href="#about" class="nav-link" data-toggle="pill">About</a></li>
+                            <li><a href="#contact" class="nav-link" data-toggle="pill">Contact</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="home">
+                                <h1 class="text-center">This is Home Page</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci autem libero magni mollitia nobis officia porro praesentium repudiandae sequi? Distinctio provident quas quod sint sunt, vero? Accusantium, aspernatur, suscipit.</p>
+                            </div>
+                            <div class="tab-pane fade" id="about">
+                                <h1 class="text-center">This is the About Page</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci autem libero magni mollitia nobis officia porro praesentium repudiandae sequi? Distinctio provident quas quod sint sunt, vero? Accusantium, aspernatur, suscipit.</p>
+                            </div>
+                            <div class="tab-pane fade" id="contact">
+                                <h1 class="text-center">This is the Contact Page</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci autem libero magni mollitia nobis officia porro praesentium repudiandae sequi? Distinctio provident quas quod sint sunt, vero? Accusantium, aspernatur, suscipit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionDiv">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#uname">
+                                        What is your name?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div class="collapse show" id="uname" data-parent="#accordionDiv">
+                                <div class="card-body">
+                                    <h5> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum earum, eligendi exercitationem expedita hic, iure molestias nesciunt, nihil odio placeat praesentium quibusdam quis recusandae reprehenderit sapiente temporibus tenetur voluptatum?</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#uemail">
+                                        What is your email address?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="uemail" data-parent="#accordionDiv">
+                                <div class="card-body">
+                                    <h5> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum earum, eligendi exercitationem expedita hic, iure molestias nesciunt, nihil odio placeat praesentium quibusdam quis recusandae reprehenderit sapiente temporibus tenetur voluptatum?</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#uphone">
+                                        What is your contact number?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div class="collapse" id="uphone" data-parent="#accordionDiv">
+                                <div class="card-body">
+                                    <h5> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum earum, eligendi exercitationem expedita hic, iure molestias nesciunt, nihil odio placeat praesentium quibusdam quis recusandae reprehenderit sapiente temporibus tenetur voluptatum?</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!------------------------------------------------------------------------------------------------------->
+<!------------------------------------------REGISTRATION MODAL------------------------------------------->
+<!------------------------------------------------------------------------------------------------------->
+
+
+    <div class="modal fade" data-backdrop="static" data-keyboard="false" id="modal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Registration Form</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label">Full Name</label>
+                            <div class="col-md-8">
+                                <input type="text" id="name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label">Email</label>
+                            <div class="col-md-8">
+                                <input type="email" id="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="phone" class="col-md-4 col-form-label">Phone Number</label>
+                            <div class="col-md-8">
+                                <input type="number" id="phone" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="password" class="col-md-4 col-form-label">Password</label>
+                            <div class="col-md-8">
+                                <input type="password" id="password" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="address" class="col-md-4 col-form-label">Address</label>
+                            <div class="col-md-8">
+                                <textarea type="address" id="address" class="form-control" cols="30" rows="4"></textarea>
+                            </div>
+                        </div>
+
+<!--                        <div class="form-group row">-->
+<!--                            <label class="col-md-4"></label>-->
+<!--                            <div class="col-md-8">-->
+<!--                                <input type="submit" class="btn btn-outline-success btn-block" value="Submit">-->
+<!--                            </div>-->
+<!--                        </div>-->
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success">Submit</button>
+                    <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------->
+    <!---------------------------------------------SIGN-IN MODAL--------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------->
+
+    <div class="modal fade" data-backdrop="static" data-keyboard="false" id="signin_modal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-info" >
+                    <h3 class="modal-title" >Sign In</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group row">
+                            <label for="emailaddress" class="col-md-4 col-form-label">Email</label>
+                            <div class="col-md-8">
+                                <input type="email" id="emailaddress" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="userpassword" class="col-md-4 col-form-label">Password</label>
+                            <div class="col-md-8">
+                                <input type="password" id="userpassword" class="form-control">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success">Submit</button>
+                    <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
